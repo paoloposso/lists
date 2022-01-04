@@ -1,9 +1,10 @@
 pub mod first;
+pub mod second;
 
 #[cfg(test)]
 mod tests {
 
-    use crate::first::{List, Link};
+    use crate::first::{List};
 
     #[test]
     fn it_works() {
